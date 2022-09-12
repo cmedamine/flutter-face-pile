@@ -17,7 +17,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```
 dependencies:
-  flutter_face_pile: ^0.0.2
+  flutter_face_pile: ^0.0.3
 ```
 
 Now in your Dart code, you can use:
