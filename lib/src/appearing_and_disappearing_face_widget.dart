@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 import 'avatar_circle_widget.dart';

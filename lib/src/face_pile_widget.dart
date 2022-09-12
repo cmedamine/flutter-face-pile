@@ -1,9 +1,7 @@
-
 import 'package:flutter/material.dart';
 
 import 'appearing_and_disappearing_face_widget.dart';
 import 'face_holder.dart';
-
 
 class FacePile extends StatefulWidget {
   /// List of user profile image.
@@ -36,8 +34,6 @@ class FacePile extends StatefulWidget {
   ///animation duration, deafult -> 250 microseconds
   final Duration animationDuration;
 
-
-  
   ///A group of overlapping round avatars are called face piles,
   ///[FacePile] displays a stacked list of avatars,
   ///Each circle represents a person and contains their image.

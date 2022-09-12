@@ -2,22 +2,22 @@
 
 A group of overlapping round avatars are called face piles.
 
+A face pile is a series of overlapping avatar images that come and go as users join and leave a given group.
+
 this packages was originated from [@SuperDeclarative!](https://github.com/matthew-carroll/widget_workshops/blob/main/lib/face_pile/main_face_pile.dart)
 
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 
-<img src="screenshots/flutter-face-pile-screenshot.png" width = 70%></img>
+<img src="https://github.com/cmedamine/flutter-face-pile/blob/main/screenshots/flutter-face-pile-screenshot.png?raw=true" width="80%" alt="Flutter Face Pile">
 
 ## Getting started
 
 Add this to your package's `pubspec.yaml` file:
 
 ```
-...
 dependencies:
-  flutter_face_pile: ^0.0.1
-
+  flutter_face_pile: ^0.0.2
 ```
 
 Now in your Dart code, you can use:
