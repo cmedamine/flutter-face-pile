@@ -2,6 +2,8 @@
 
 A group of overlapping round avatars are called face piles.
 
+this packages was originated from [@SuperDeclarative!](https://github.com/matthew-carroll/widget_workshops/blob/main/lib/face_pile/main_face_pile.dart)
+
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 <img src="screenshots/flutter-face-pile-screenshot.png" width = 70%></img>
