@@ -13,7 +13,7 @@ Add this to your package's `pubspec.yaml` file:
 ```
 ...
 dependencies:
-  flutter_face_pile: ^0.1.0
+  flutter_face_pile: ^0.0.1
 
 ```
 
