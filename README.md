@@ -1,39 +1,66 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+## Flutter Face Pile
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
+A group of overlapping round avatars are called face piles.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
 
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+<img src="screenshots/flutter-face-pile-screenshot.png" width = 70%></img>
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add this to your package's `pubspec.yaml` file:
+
+```
+...
+dependencies:
+  flutter_face_pile: ^0.1.0
+
+```
+
+Now in your Dart code, you can use:
+
+```dart
+import 'package:flutter_face_pile/flutter_face_pile.dart';
+```
 
 ## Usage
 
 TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+to `/example` folder.
 
 ```dart
-const like = 'sample';
+
+import 'package:flutter_face_pile/flutter_face_pile.dart';
+
+
+FacePile(
+    faces: [
+        FaceHolder(
+            id: '1',
+            name: 'user 1',
+            avatar: NetworkImage('https://i.pravatar.cc/300?img=1'),
+          ),
+          FaceHolder(
+            id: '2',
+            name: 'user 2',
+            avatar: NetworkImage('https://i.pravatar.cc/300?img=2'),
+          ),
+          FaceHolder(
+            id: '3',
+            name: 'user 3',
+            avatar: NetworkImage('https://i.pravatar.cc/300?img=3'),
+          ),
+    ],
+    faceSize: 50,
+    facePercentOverlap: .4,
+    borderColor: Colors.white,
+),
+
+
+
 ```
 
-## Additional information
+## Contribute
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+Contributions are welcome, if you have a issue or any problem with this packages please file issues, or make pull-requests.
